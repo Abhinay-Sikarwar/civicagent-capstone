@@ -110,15 +110,34 @@ civicagent-capstone/
 │   │   ├── form_agent.py
 │   │   └── comms_agent.py
 │   │
-│   ├── llm/gemini_client.py
-│   ├── session/session_manager.py
-│   ├── memory/memory_manager.py
-│   └── evaluation/
-│       ├── evaluator.py
-│       └── golden_tests.json
+│   ├── llm/
+│   │   └── gemini_client.py
+│   │
+│   ├── session/
+│   │   └── session_manager.py
+│   │
+│   ├── memory/
+│   │   └── memory_manager.py
+│   │
+│   ├── evaluation/
+│   │   ├── evaluator.py
+│   │   └── golden_tests.json
+│   │
+│   └── __init__.py
 │
-└── examples/
-    └── test_*.py (agent demos)
+├── examples/
+│   ├── test_research_agent.py
+│   ├── test_evidence_agent.py
+│   ├── test_form_agent.py
+│   ├── test_comms_agent.py
+│   ├── test_orchestrator.py
+│   ├── test_gemini.py
+│   ├── test_evaluator.py
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE 
 ```
 
 ---
