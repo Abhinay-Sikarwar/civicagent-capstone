@@ -1,0 +1,5 @@
+google-genai
+faiss-cpu
+numpy
+pydantic
+python-dotenv

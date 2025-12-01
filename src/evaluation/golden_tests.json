@@ -1,0 +1,38 @@
+[
+  {
+    "id": "case_01_pothole",
+    "user_id": "user-1",
+    "location": "123 Main St",
+    "description": "Large pothole near the crosswalk causing vehicle damage.",
+    "images": [],
+    "expected": {
+      "issue_category": "Pothole",
+      "department": "Public Works",
+      "severity": "High"
+    }
+  },
+  {
+    "id": "case_02_streetlight",
+    "user_id": "user-2",
+    "location": "45 Elm Rd",
+    "description": "Streetlight has been out for 3 nights, area is dark and unsafe.",
+    "images": [],
+    "expected": {
+      "issue_category": "streetlight_outage",
+      "department": "Street Lighting",
+      "severity": "Medium"
+    }
+  },
+  {
+    "id": "case_03_garbage",
+    "user_id": "user-3",
+    "location": "9 Oak Ave",
+    "description": "Overflowing garbage bins attracting pests and foul smell.",
+    "images": [],
+    "expected": {
+      "issue_category": "garbage_overflow",
+      "department": "Sanitation",
+      "severity": "Low"
+    }
+  }
+]

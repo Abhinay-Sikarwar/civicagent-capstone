@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keys and secrets (never commit)
+secrets/
+*.key
+.env.local
+
+# Model artifacts
+*.bin
+*.jsonl
+
+# Misc
+.idea/
+.vscode/

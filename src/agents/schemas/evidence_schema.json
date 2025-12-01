@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "description_summary": { "type": "string" },
+    "structured_findings": {
+      "type": "object",
+      "properties": {
+        "visible_issue_type": { "type": "string" },
+        "severity": { "type": "string", "enum": ["low", "medium", "high"] },
+        "evidence_quality": { "type": "string" },
+        "confidence_level": { "type": "string" }
+      },
+      "required": ["visible_issue_type", "severity", "confidence_level"]
+    }
+  },
+  "required": ["description_summary", "structured_findings"]
+}
