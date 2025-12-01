@@ -279,12 +279,6 @@ If you want, I can generate your video script too.
 
 ---
 
-## 📄 License
-
-MIT License.
-
----
-
 ## ✨ Acknowledgements
 
 Built for **KaggleXGoogle – Advanced Agents Cohort**, synthesizing concepts from:
