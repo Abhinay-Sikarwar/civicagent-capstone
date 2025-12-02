@@ -270,15 +270,6 @@ Example request:
 
 ---
 
-## 🎥 Optional YouTube Video Structure (3 min)
-
-If you want, I can generate your video script too.
-
-**Say:**
-→ *"Generate my capstone video script."*
-
----
-
 ## ✨ Acknowledgements
 
 Built for **KaggleXGoogle – Advanced Agents Cohort**, synthesizing concepts from:
